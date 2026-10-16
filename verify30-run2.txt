@@ -1,0 +1,21 @@
+PASS: setup creates 3 source files
+PASS: setup source byte count is 53
+PASS: dry run exit 1
+PASS: dry run creates no destination
+PASS: copy exit 1
+PASS: copy produces 3 files
+PASS: byte-identical copied file Documents\cv.txt
+PASS: byte-identical copied file Documents\school\essay.txt
+PASS: byte-identical copied file Pictures\photo-notes.txt
+PASS: second dry run exit 0
+PASS: mirror dry run exit 3
+PASS: mirror dry run preserves extra
+PASS: mirror exit 3
+PASS: mirror removes extra only in demo
+PASS: mirror copies important file
+PASS: original source unchanged cv.txt
+PASS: original source unchanged essay.txt
+PASS: original source unchanged photo-notes.txt
+PASS: second setup uses a new folder
+PASS: second setup leaves first folder untouched
+PASS: all critical release checks passed
