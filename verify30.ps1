@@ -60,3 +60,5 @@ try {
   if($p -and (Split-Path $p -Leaf) -like 'robocopy-practice-*'){Remove-Item -LiteralPath $p -Recurse -Force}
  }
 }
+# Robocopy success codes are checked above. Do not leak its last code to CI.
+$global:LASTEXITCODE = 0
